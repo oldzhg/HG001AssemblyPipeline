@@ -1,0 +1,23 @@
+hifi: /home/cyzhang/project/NA12878/data/hifi/hifi.fq.gz
+nanopore: /home/cyzhang/project/NA12878/data/nanopore/NA12878.fq.gz
+hic: /home/cyzhang/project/NA12878/data/hic/hic.fq.fz
+parent_path: /home/cyzhang/project/NA12878/data/parents
+father_illumina: /home/cyzhang/project/NA12878/data/parents/father.fq.gz
+mother_illumina: /home/cyzhang/project/NA12878/data/parents/mother.fq.gz
+
+basecalls: "config/basecalls.tsv"
+references: "config/references.tsv"
+phased_vcfs: "config/phased_vcfs.tsv"
+file_layout: "config/file_layout.yaml"
+
+output_dir: "results"
+prefix: "NA12878"
+
+father_cfg: "config/father.cfg"
+mother_cfg: "config/mother.cfg"
+
+# haplotype
+readsType: "nanopore"
+genomeSize: "3.1g"
+
+basename: "NA12878"

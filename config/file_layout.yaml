@@ -1,0 +1,13 @@
+hifiasm:
+    hifiasm: ./
+    hap1: asm.dip.hap1.p_ctg.gfa
+    hap2: asm.dip.hap2.p_ctg.gfa
+    hap1fa: asm.dip.hap1.p_ctg.fa
+    hap2fa: asm.dip.hap2.p_ctg.fa
+yak: 
+    father: father.yak
+    mother: mother.yak
+align_table:
+    alignment: '{enzyme}_{run_id}_{batch_id}_{refgenome_id}_{phase_set_id}.at.alignment.parquet'
+    pore_c: '{enzyme}_{run_id}_{batch_id}_{refgenome_id}_{phase_set_id}.at.pore_c.parquet'
+
